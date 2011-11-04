@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/nath
+# catalog-date 2006-12-22 14:37:19 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-nath
 Version:	20061222
 Release:	1
@@ -46,6 +52,7 @@ material enclosed, rendering \left and \right almost obsolete.
 %doc %{_texmfdistdir}/doc/latex/nath/README
 %doc %{_texmfdistdir}/doc/latex/nath/nathguide.pdf
 %doc %{_texmfdistdir}/doc/latex/nath/nathguide.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ material enclosed, rendering \left and \right almost obsolete.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
