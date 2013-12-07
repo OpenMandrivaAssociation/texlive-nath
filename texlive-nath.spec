@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-nath
 Version:	20061222
-Release:	5
+Release:	6
 Summary:	Natural mathematics notation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nath
