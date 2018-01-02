@@ -1,9 +1,3 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/nath
-# catalog-date 2006-12-22 14:37:19 +0100
-# catalog-license gpl
-# catalog-version undef
 Name:		texlive-nath
 Version:	20170414
 Release:	1
@@ -39,10 +33,8 @@ material enclosed, rendering \left and \right almost obsolete.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/nath/nath.sty
-%doc %{_texmfdistdir}/doc/latex/nath/README
-%doc %{_texmfdistdir}/doc/latex/nath/nathguide.pdf
-%doc %{_texmfdistdir}/doc/latex/nath/nathguide.tex
+%{_texmfdistdir}/tex/latex/nath
+%doc %{_texmfdistdir}/doc/latex/nath
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,17 +45,3 @@ material enclosed, rendering \left and \right almost obsolete.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20061222-2
-+ Revision: 754248
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20061222-1
-+ Revision: 719101
-- texlive-nath
-- texlive-nath
-- texlive-nath
-- texlive-nath
-
