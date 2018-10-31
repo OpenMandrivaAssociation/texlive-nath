@@ -1,6 +1,6 @@
 Name:		texlive-nath
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Natural mathematics notation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nath
