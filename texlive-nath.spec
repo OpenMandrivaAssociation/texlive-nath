@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Natural mathematics notation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nath
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/nath
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nath.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nath.doc.r%{version}.tar.xz
